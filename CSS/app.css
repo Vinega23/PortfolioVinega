@@ -1,27 +1,28 @@
 /* GENERAL */
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P:regular);
 body{
+   
     background: white;    
-    font-family: monospace,sans-serif;
-}
-.content{
+    font-family:'Press Start 2P', monospace,sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;      
 }
-/* CONTAINER */
+
+    /* ABOUT ME */
 h1{
     text-align: center;
     padding: 40px;
     margin-top: -20px;
 }
-.container{      
+.containerAboutMe{      
     background: rgb(20, 185, 204);   
     float:center;   
     max-width: 800px;    
     max-height: 100%; 
     padding: 1rem;
-    margin: auto 20px;
+    margin: 10px 20px;
     overflow-x: hidden;    
     border:solid 5px black;
     border-radius: 15px;
@@ -29,12 +30,12 @@ h1{
     padding: 50px;  
     
 }
-/* BOXES    */
+/* BOXES*/
 
 .box{
     float:left;  
     margin: 10px 20px;
-    width: 45%;    
+    width: 45%;   
     
     box-sizing: border-box;
     background:white;
@@ -57,16 +58,45 @@ h1{
 }
 .profile .box{
     /* height: 330px; */
-
 }
 .portrait img{
     position: relative;
     width: 90%;
-    margin: 5%;    
-    
+    margin: 5%; 
+        
+}
+.portrait .box{  
+
+}
+/* SKILLS */
+
+.containerSkills{      
+    background:indianred;   
+    float:center;   
+    max-width: 800px;    
+    max-height: 100%; 
+    padding: 1rem;
+    margin: 10px 20px;
+    overflow-x: hidden;    
+    border:solid 5px black;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 30%), 0 4px 6px -2px rgb(0 0 0 / 30%);
+    padding: 50px;  
     
 }
-.portrait .box{
-   
+/* PROJECTS */
 
+.containerProjects{      
+    background:darkgoldenrod;   
+    float:center;   
+    max-width: 800px;    
+    max-height: 100%; 
+    padding: 1rem;
+    margin: 10px 20px;
+    overflow-x: hidden;    
+    border:solid 5px black;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 30%), 0 4px 6px -2px rgb(0 0 0 / 30%);
+    padding: 50px;  
+    
 }
